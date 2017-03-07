@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab 3</title>
+	<link rel="stylesheet" type="text/css" href="styling/index.css">
+</head>
+<body>
+
+
+	<div class="wide_25">
+		<!--
+		<nav id="navBar">
+			<header id="hd_1">
+				Distance Now
+			</header>
+		</nav>-->
+		<header>
+			<h1 id="hdr1_fltpnl">Distance Mapping</h1>
+		</header>
+		<div id="floating-panel">
+			<h2 id="hdr2_fltpnl">Set Location</h2>
+			<input id="address" type="textbox" placeholder="Sydney, NSW"><br>
+			<input id="submit" type="button" value="Search">
+		</div>
+		<div class="dropzone" id="dropzone">
+			Drop Files to upload
+		</div>
+		<button id="getLocationBtn">Get Current Location</button><br>
+		<button id="calcHaversineBtn">Calculate Distance</button>
+
+		<section id="results">
+			<h2 id="hdr_fltpnl3">Results</h3>
+				<div id="result_container">
+					
+				</div>
+			</section>
+		</div>
+
+		<div class="wide_75">
+			<div id="map"></div>
+		</div>
+
+		<script src="javascript/index.js" type="text/javascript"></script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoOckURPNybRcqJdzZpkWnztcH5Q4Y8ls">
+	</script>
+</body>
+</html>

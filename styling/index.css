@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; }
+
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element; }
+
+.dropzone {
+  margin: 50px 0 20px 40px;
+  height: 200px;
+  width: 350px;
+  border: 2px dashed white;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+  color: white; }
+
+.dropzone.dragover {
+  border: 2px dashed black;
+  color: black; }
+
+#map {
+  height: 100%;
+  width: 100%; }
+
+#navBar {
+  height: 75px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  z-index: 5; }
+
+#hdr2_fltpnl {
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 20px;
+  font-color: white; }
+
+.wide_25 {
+  width: 25%;
+  height: auto;
+  position: relative;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+  overflow: scroll;
+  background: #4eb9e7; }
+
+.wide_75 {
+  width: 75%;
+  height: auto;
+  position: relative;
+  -webkit-flex: 2 0 0;
+  flex: 2 0 0; }
+
+#floating-panel {
+  margin-top: 75px;
+  margin-left: 40px;
+  margin-right: 5px;
+  position: relative; }
+
+#address {
+  height: 40px;
+  width: 350px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  border-color: transparent;
+  border-bottom: 1px solid white; }
+
+#address::placeholder {
+  color: white; }
+
+#submit {
+  height: 55px;
+  width: 350px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border-color: transparent;
+  background: #399cc1;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px; }
+
+#getLocationBtn {
+  height: 55px;
+  width: 350px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 40px;
+  background: transparent;
+  background: #399cc1;
+  border-color: transparent;
+  color: white; }
+
+#calcHaversineBtn {
+  height: 55px;
+  width: 350px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  background: #ea567e;
+  color: white;
+  border-color: transparent;
+  margin-left: 40px; }
+
+#results {
+  margin-top: 40px; }
+
+.results_txt {
+  font-size: 15px;
+  line-height: 22px;
+  margin: 20px 40px 40px 0px; }
+
+#hdr1_fltpnl {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 25px 0px 0px 40px; }
+
+#hdr_fltpnl3 {
+  font-weight: 300;
+  font-size: 19px;
+  margin: 25px 0px 0px 40px; }
+
+#result_container {
+  margin: 10px 0px 30px 40px;
+  font-size: 14px; }
+
+/*# sourceMappingURL=index.css.map */
